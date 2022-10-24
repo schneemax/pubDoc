@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Kapitel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Kapitel.xsd">
+	<kapitel>
+		<absatz>Dies ist ein kurzer Text, der in XML strukturiert ist. Dieser Text soll Ihnen als Uebungsmaterial dienen, um einige grundlegende Regeln beim Gebrauch von XML anzuwenden.</absatz>
+		<absatz>In diesem Abschnitt lernen Sie, was alles zu beachten ist, um ein fehlerfreies XML-Dokument zu erzeugen.</absatz>
+		<absatz>Zu beachten sind die Eigenschaften der Wohlgeformtheit und der Gueltigkeit.</absatz>
+	</kapitel>
+<kapitel>
+	<absatz>Die Wohlgeformtheit richtet sich auf die Einhaltung gewisser Grundregeln, die jedes XML-Dokument einhalten muss. Sie ist unabhaengig von einer bestimmten Dokumenttypdefinition (DTD) oder einem bestimmten XML-Schema.</absatz>
+	<absatz>Die Gueltigkeit richtet sich auf die Uebereinstimmung mit einer bestimmten DTD bzw. einem bestimmten XML-Schema. Damit die Gueltigkeit ueberprueft werden kann, muss das XML-Dokument mit einer DTD bzw. einem XML-Schema verbunden werden. Dies kann etwa dadurch geschehen, dass aus dem Dokument heraus auf ein Definitionsdokument verwiesen wird.</absatz>
+</kapitel>
+</Kapitel>

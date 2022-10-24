@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Kunden">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Kunde" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Vorname" type="xs:string"/>
+              <xs:element name="Nachname" type="xs:string"/>
+              <xs:element name="Geschlecht">
+                <xs:simpleType>
+  		            <xs:restriction base="xs:integer">
+  		              <xs:enumeration value="1"/> <!-- männlich -->
+  		              <xs:enumeration value="2"/> <!-- weiblich -->
+  		              <xs:enumeration value="3"/> <!-- unbestimmt -->
+  		            </xs:restriction>
+                </xs:simpleType>
+              </xs:element>  
+              <xs:element name="Jahrgang" type="xs:date"/>
+              <xs:element name="Land">
+                <xs:simpleType>
+   		            <xs:restriction base="xs:string">
+  		              <xs:enumeration value="AT"/> <!-- Österreich -->
+  		              <xs:enumeration value="CH"/> <!-- Schweiz -->
+  		              <xs:enumeration value="DE"/> <!-- Deutschland-->
+  		              <xs:enumeration value="IE"/> <!-- Irland-->
+   		              <xs:enumeration value="IT"/> <!-- Italien-->
+  		            </xs:restriction>
+                </xs:simpleType>
+               </xs:element> 
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

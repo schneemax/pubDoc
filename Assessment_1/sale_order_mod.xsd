@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="order" type="order_typ"/>
+  
+    <xs:complexType name="order_typ">
+      <xs:sequence>
+        <xs:element name="id" type="xs:string"/>
+        <xs:element name="partner_id" type="xs:string"/>
+        <xs:element name="date_order" type="xs:date"/>
+        <xs:element name="partner_shipping_id" type="xs:string"/>
+        <xs:element name="order_item" type="item_typ" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+ 
+  
+    <xs:complexType name="item_typ">
+      <xs:sequence>
+        <xs:element name="line_item_id" type="xs:integer"/>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="uom_qty" type="xs:decimal"/>
+        <xs:element name="uom_unit" type="xs:string"/>
+        <xs:element name="price_unit" type="xs:decimal"/>
+      </xs:sequence>
+    </xs:complexType>
+</xs:schema>

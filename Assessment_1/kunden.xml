@@ -1,0 +1,30 @@
+﻿<Kunden xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="kunden_mod.xsd">
+<Kunde>
+	<Vorname>Julia</Vorname>
+	<Nachname>Tinner</Nachname>
+	<Geschlecht>2</Geschlecht>
+	<Jahrgang>1970-01-01</Jahrgang>
+	<Land>IT</Land>
+</Kunde>
+<Kunde>
+	<Vorname>Tim</Vorname>
+	<Nachname>Foster</Nachname>
+	<Geschlecht>1</Geschlecht>
+	<Jahrgang>1987-01-01</Jahrgang>
+	<Land>IE</Land>
+</Kunde>
+<Kunde>
+	<Vorname>Michael</Vorname>
+	<Nachname>Dobler</Nachname>
+	<Geschlecht>1</Geschlecht>
+	<Jahrgang>1959-01-01</Jahrgang>
+	<Land>DE</Land>
+</Kunde>
+<Kunde>
+	<Vorname>Caroline</Vorname>
+	<Nachname>Messmer</Nachname>
+	<Geschlecht>2</Geschlecht>
+	<Jahrgang>1964-01-01</Jahrgang>
+	<Land>CH</Land>
+</Kunde>
+</Kunden>

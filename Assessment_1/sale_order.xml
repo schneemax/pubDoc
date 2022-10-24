@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sale_order_mod.xsd">
+	<id>__export__.sale_order_37</id>
+	<partner_id>base.res_partner_2</partner_id>
+	<date_order>2018-04-04</date_order>
+	<partner_shipping_id>base.res_partner_2</partner_shipping_id>
+	<order_item>
+		<line_item_id>1</line_item_id>
+		<name>Laptop E5023</name>
+		<uom_qty>3</uom_qty>
+		<uom_unit>product.product_uom_unit</uom_unit>
+		<price_unit>2000</price_unit>
+	</order_item>
+	<order_item>
+		<line_item_id>2</line_item_id>
+		<name>Computer AS-12 Dvorak keyboard left-handed
+			mouse"
+		</name>
+		<uom_qty>1</uom_qty>
+		<uom_unit>product.product_uom_unit</uom_unit>
+		<price_unit>800</price_unit>
+	</order_item>
+</order>
